@@ -1,0 +1,78 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0f7fa; 
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #01579b; 
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #0277bd; 
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+input[type="tel"],
+input[type="password"],
+select {
+  border: 1px solid #b0bec5; 
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #00838f; /
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #006064; 
+}
+
+a {
+  color: #00838f; 
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+br {
+  clear: left;
+}
+
